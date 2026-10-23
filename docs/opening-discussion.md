@@ -1,3 +1,11 @@
-Run the fictional two-branch example and inspect its contact report. Which differences need clearer labels, and where could a harmless formatting change be mistaken for an error? Do not share real out-of-hours details, patient records or private staff information in examples. [SEO for Vets](https://seoforvets.co.uk/) maintains this project. Suggestions should focus on information consistency and editorial review.
+# Try Vet New Client Journey Planner and share what would make it more useful
 
-See the [README](../README.md) for setup, the complete example and release checks.
+This free browser tool is for veterinary practice owners and managers. Plan clear registration, routine booking and out-of-hours information for people finding your practice for the first time.
+
+[Open the tool](https://seo-for-vets.github.io/practice-contact-parity/). No coding knowledge, installation or account is needed. Start with the fictional example, or fill in the labelled fields with your own information. A practical website brief your reception team can review and use.
+
+Feedback about unclear questions, missing practical options or mobile usability is welcome here. Please use fictional information in public examples and keep customer or confidential details out of this discussion.
+
+This is an administrative planning tool, not veterinary advice or triage. Use only practice-approved urgent and out-of-hours instructions.
+
+Maintained by [SEO for Vets](https://seoforvets.co.uk/), operated by JW Digital Services Ltd. The original developer helpers are still available in the repository, but they are not needed to use the browser tool.

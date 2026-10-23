@@ -1,0 +1,14 @@
+{
+  "business": "Example Veterinary Practice",
+  "species": [
+    "Dogs",
+    "Cats",
+    "Small pets"
+  ],
+  "registration": "phone",
+  "routine": "request",
+  "branches": "multiple",
+  "branchInfo": "Choose the appropriate branch and check its actual address, opening hours and access information.",
+  "urgent": "",
+  "prepare": "Reception explains registration and how previous records are requested where appropriate."
+}

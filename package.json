@@ -1,7 +1,7 @@
 {
   "name": "practice-contact-parity",
-  "version": "0.1.0",
-  "description": "Compare approved veterinary branch and out-of-hours contact records with supplied website data.",
+  "version": "0.2.0",
+  "description": "Plan clear registration, routine booking and out-of-hours information for people finding your practice for the first time.",
   "type": "module",
   "private": false,
   "license": "MIT",
