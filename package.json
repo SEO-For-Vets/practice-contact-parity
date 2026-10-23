@@ -1,6 +1,6 @@
 {
   "name": "practice-contact-parity",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Plan clear registration, routine booking and out-of-hours information for people finding your practice for the first time.",
   "type": "module",
   "private": false,
