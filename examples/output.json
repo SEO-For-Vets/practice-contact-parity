@@ -1,0 +1,91 @@
+{
+  "title": "Example Vets / fictional branch data contact comparison",
+  "summary": "Compare supplied records only. No calls, clinical advice, live-service verification or profile changes.",
+  "comparisons": [
+    {
+      "branch_id": "north",
+      "page": "/north",
+      "field": "phone",
+      "state": "Formatting only",
+      "expected": "DEMO-ALPHA",
+      "observed": "DEMO ALPHA",
+      "approved_on": "2026-10-01"
+    },
+    {
+      "branch_id": "south",
+      "page": "/south",
+      "field": "phone",
+      "state": "Conflict",
+      "expected": "DEMO-BETA",
+      "observed": "DEMO-ALPHA",
+      "approved_on": "2026-10-01"
+    },
+    {
+      "branch_id": "south",
+      "page": "/south",
+      "field": "out_of_hours_note",
+      "state": "Missing",
+      "expected": "Synthetic demonstration only. Not emergency contact information.",
+      "observed": "",
+      "approved_on": "2026-10-01"
+    }
+  ],
+  "issues": [
+    {
+      "code": "conflict",
+      "message": "phone: Conflict; use the approved record for human review",
+      "source": "/south"
+    },
+    {
+      "code": "missing",
+      "message": "out_of_hours_note: Missing; use the approved record for human review",
+      "source": "/south"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for name; visibility is unchecked",
+      "source": "north"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for address; visibility is unchecked",
+      "source": "north"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for opening_hours; visibility is unchecked",
+      "source": "north"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for out_of_hours_contact; visibility is unchecked",
+      "source": "north"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for out_of_hours_note; visibility is unchecked",
+      "source": "north"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for name; visibility is unchecked",
+      "source": "south"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for address; visibility is unchecked",
+      "source": "south"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for opening_hours; visibility is unchecked",
+      "source": "south"
+    },
+    {
+      "code": "not-supplied",
+      "message": "No website observation for out_of_hours_contact; visibility is unchecked",
+      "source": "south"
+    }
+  ],
+  "markdown": "- /north | phone | Formatting only | approved 2026-10-01\n- /south | phone | Conflict | approved 2026-10-01\n- /south | out_of_hours_note | Missing | approved 2026-10-01"
+}

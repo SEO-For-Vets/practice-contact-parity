@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Practice Contact Parity example structure",
+  "description": "Structural guide to the supplied example. Runtime validation enforces supported states, publication gates and cross-field rules.",
+  "type": "object",
+  "properties": {
+    "practice": {
+      "type": "string"
+    },
+    "branches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "branch_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "opening_hours": {
+            "type": "string"
+          },
+          "out_of_hours_contact": {
+            "type": "string"
+          },
+          "out_of_hours_note": {
+            "type": "string"
+          },
+          "approved_on": {
+            "type": "string"
+          },
+          "approver": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "branch_id",
+          "name",
+          "address",
+          "phone",
+          "opening_hours",
+          "out_of_hours_contact",
+          "out_of_hours_note",
+          "approved_on",
+          "approver"
+        ]
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "branch_id": {
+            "type": "string"
+          },
+          "page": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "branch_id",
+          "page",
+          "field",
+          "value"
+        ]
+      }
+    }
+  },
+  "required": [
+    "practice",
+    "branches",
+    "observations"
+  ]
+}

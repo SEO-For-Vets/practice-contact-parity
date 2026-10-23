@@ -1,0 +1,47 @@
+{
+  "practice": "Example Vets / fictional branch data",
+  "branches": [
+    {
+      "branch_id": "north",
+      "name": "Example North",
+      "address": "FICTIONAL NORTH ADDRESS",
+      "phone": "DEMO-ALPHA",
+      "opening_hours": "Example weekday hours; not a real service",
+      "out_of_hours_contact": "DEMO-OUT-OF-HOURS",
+      "out_of_hours_note": "Synthetic demonstration only. Not emergency contact information.",
+      "approved_on": "2026-10-01",
+      "approver": "Example editor"
+    },
+    {
+      "branch_id": "south",
+      "name": "Example South",
+      "address": "FICTIONAL SOUTH ADDRESS",
+      "phone": "DEMO-BETA",
+      "opening_hours": "Example weekday hours; not a real service",
+      "out_of_hours_contact": "DEMO-OUT-OF-HOURS",
+      "out_of_hours_note": "Synthetic demonstration only. Not emergency contact information.",
+      "approved_on": "2026-10-01",
+      "approver": "Example editor"
+    }
+  ],
+  "observations": [
+    {
+      "branch_id": "north",
+      "page": "/north",
+      "field": "phone",
+      "value": "DEMO ALPHA"
+    },
+    {
+      "branch_id": "south",
+      "page": "/south",
+      "field": "phone",
+      "value": "DEMO-ALPHA"
+    },
+    {
+      "branch_id": "south",
+      "page": "/south",
+      "field": "out_of_hours_note",
+      "value": ""
+    }
+  ]
+}

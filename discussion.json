@@ -1,0 +1,4 @@
+{
+  "title": "Which contact inconsistencies should a practice editor see first",
+  "body": "Run the fictional two-branch example and inspect its contact report. Which differences need clearer labels, and where could a harmless formatting change be mistaken for an error? Do not share real out-of-hours details, patient records or private staff information in examples. [SEO for Vets](https://seoforvets.co.uk/) maintains this project. Suggestions should focus on information consistency and editorial review.\n\nStart with the [README](https://github.com/SEO-For-Vets/practice-contact-parity#readme), then run the documented example locally."
+}
