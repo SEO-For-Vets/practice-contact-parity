@@ -6,6 +6,10 @@ The checker does not verify a live service, place calls or advise on veterinary 
 
 ![Complete example](docs/preview.png)
 
+## Live demo
+
+[Try Practice Contact Parity](https://seo-for-vets.github.io/practice-contact-parity/). The demo runs in your browser; entered data is not uploaded by the tool. GitHub provides the hosting and handles request logs.
+
 ## Start locally
 
 Requires Node.js 22 or later. No runtime dependencies or account required.
